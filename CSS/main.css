@@ -1,0 +1,27 @@
+.hero {
+    background: url('../Images/Hero_Section.jpg') no-repeat center center;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+/* Footer Style */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1.5em 0;
+}
+
+#imagePreview {
+    max-width: 100%;
+    max-height: 900px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}

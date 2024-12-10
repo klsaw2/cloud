@@ -1,0 +1,10 @@
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1.5em 0;
+}
+
+.btn-primary {
+    background-color: #87CEEB; /* Sky Blue */
+    border-color: #87CEEB;
+}

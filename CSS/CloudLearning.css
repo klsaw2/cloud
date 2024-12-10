@@ -1,0 +1,99 @@
+#cloudContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Space between cards */
+    justify-content: flex-start; /* Align items to the left */
+}
+
+
+
+/* Default card styling */
+.clouds {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Evenly space out child elements */
+    width: calc(20% - 1rem); /* Adjust width for desktop */
+    min-height: 250px; /* Set a minimum height for all cards */
+}
+
+/* Hide cards that don't have the 'show' class */
+.clouds.hide {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .clouds {
+        width: calc(25% - 1rem); /* 4 cards per row on larger tablets */
+    }
+}
+
+@media (max-width: 992px) {
+    .clouds {
+        width: calc(33.33% - 1rem); /* 3 cards per row on tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .clouds {
+        width: calc(50% - 1rem); /* 2 cards per row on small tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .clouds {
+        width: calc(100% - 1rem); /* 1 card per row on mobile */
+    }
+}
+
+.card-body {
+    flex-grow: 1; /* Allow the body to grow to take up available space */
+    padding: 1rem; /* Adjust padding */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Adjust title size */
+}
+
+.card-text {
+    font-size: 0.9rem; /* Adjust text size */
+}
+.card-img-top {
+    height: 200px; /* Set your desired height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+body {
+    background-color: #f0f8ff; /* Alice Blue */
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1.5em 0;
+}
+
+.btn-primary {
+    background-color: #87CEEB; /* Sky Blue */
+    border-color: #87CEEB;
+}
+
+.card {
+    border: 1px solid #D3D3D3; /* Light Gray */
+}
+
+.card-title {
+    color: #333333; /* Dark Gray */
+}
+
+.text-muted {
+    color: #555555; /* Slightly lighter dark gray */
+}
+
+a {
+    color: #005f73; /* Deep Blue for links */
+}
+
+a:hover {
+    color: #87CEEB; /* Sky Blue on hover */
+}

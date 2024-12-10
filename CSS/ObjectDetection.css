@@ -1,0 +1,20 @@
+#loading {
+  display: none;
+}
+#model_loaded{
+  display: none;
+}
+
+label {
+  font-weight: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1.5em 0;
+}
